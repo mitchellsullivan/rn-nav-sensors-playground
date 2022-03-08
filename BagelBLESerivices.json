@@ -1,0 +1,199 @@
+{
+    "characteristics": [
+        {
+            "characteristic": "2a00",
+            "properties": {
+                "Write": "Write",
+                "Read": "Read"
+            },
+            "service": "1800"
+        },
+        {
+            "characteristic": "2a01",
+            "properties": {
+                "Read": "Read"
+            },
+            "service": "1800"
+        },
+        {
+            "characteristic": "2a04",
+            "properties": {
+                "Read": "Read"
+            },
+            "service": "1800"
+        },
+        {
+            "characteristic": "2aa6",
+            "properties": {
+                "Read": "Read"
+            },
+            "service": "1800"
+        },
+        {
+            "descriptors": [
+                {
+                    "value": null,
+                    "uuid": "2902"
+                }
+            ],
+            "characteristic": "2a05",
+            "properties": {
+                "Indicate": "Indicate"
+            },
+            "service": "1801"
+        },
+        {
+            "characteristic": "6e400002-b5a3-f393-e0a9-e50e24dcca9e",
+            "properties": {
+                "Write": "Write",
+                "WriteWithoutResponse": "WriteWithoutResponse"
+            },
+            "service": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+        },
+        {
+            "descriptors": [
+                {
+                    "value": null,
+                    "uuid": "2902"
+                }
+            ],
+            "characteristic": "6e400003-b5a3-f393-e0a9-e50e24dcca9e",
+            "properties": {
+                "Notify": "Notify"
+            },
+            "service": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+        },
+        {
+            "descriptors": [
+                {
+                    "value": null,
+                    "uuid": "2902"
+                }
+            ],
+            "characteristic": "2a19",
+            "properties": {
+                "Notify": "Notify",
+                "Read": "Read"
+            },
+            "service": "180f"
+        },
+        {
+            "characteristic": "2a29",
+            "properties": {
+                "Read": "Read"
+            },
+            "service": "180a"
+        },
+        {
+            "characteristic": "2a25",
+            "properties": {
+                "Read": "Read"
+            },
+            "service": "180a"
+        },
+        {
+            "characteristic": "2a26",
+            "properties": {
+                "Read": "Read"
+            },
+            "service": "180a"
+        }
+    ],
+    "id": "F2:9C:F9:04:01:A9",
+    "advertising": {
+        "serviceData": {},
+        "serviceUUIDs": [
+            "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+        ],
+        "localName": "PIE 001295RI800",
+        "txPowerLevel": -2147483648,
+        "isConnectable": true,
+        "manufacturerData": {
+            "bytes": [
+                2,
+                1,
+                6,
+                16,
+                9,
+                80,
+                73,
+                69,
+                32,
+                48,
+                48,
+                49,
+                50,
+                57,
+                53,
+                82,
+                73,
+                56,
+                48,
+                48,
+                17,
+                7,
+                158,
+                202,
+                220,
+                36,
+                14,
+                229,
+                169,
+                224,
+                147,
+                243,
+                163,
+                181,
+                1,
+                0,
+                64,
+                110,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "data": "AgEGEAlQSUUgMDAxMjk1Ukk4MDARB57K3CQO5angk/OjtQEAQG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+            "CDVType": "ArrayBuffer"
+        }
+    },
+    "rssi": -65,
+    "services": [
+        {
+            "uuid": "1800"
+        },
+        {
+            "uuid": "1801"
+        },
+        {
+            "uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+        },
+        {
+            "uuid": "180f"
+        },
+        {
+            "uuid": "180a"
+        }
+    ],
+    "name": "PIE 001295RI800"
+}
